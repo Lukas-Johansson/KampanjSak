@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(145, 85, 85);
+}
+
 .containee {
     height: 500px;
     width: 100%;
@@ -25,7 +29,7 @@
     display: inline-block;
     overflow: hidden;
     height: 50%;
-    background-color: #fff;
+    background-color: rgb(145, 85, 85);;
     transform: translate(-2%, -2%);
     z-index: 1;
     animation: txt 5s linear alternate infinite;
@@ -33,7 +37,7 @@
   h1::after {
     content: "";
     position: absolute;
-    background-color: #fff;
+    background-color: rgb(145, 85, 85);;
     display: inline-block;
     height: 50%;
     width: 100%;
