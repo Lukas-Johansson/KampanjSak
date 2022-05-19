@@ -47,7 +47,7 @@ h1, h2, h3 {
 }
 
 .btn:hover {
-    color: var(--color-light);
+    color: var(--color-primary);
     background-color: var(--color-primary);
 }
 
@@ -121,5 +121,6 @@ h1, h2, h3 {
       transform: translate(-2%, -2%);
     }
   }
+
 
 
