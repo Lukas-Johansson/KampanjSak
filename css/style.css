@@ -1,6 +1,6 @@
 :root {
     --color-light: color(#F5F5F5);
-    --color-dark: hsl(0, 0%, 20%);
+    --color-dark: hsl(0, 0%, 35%);
     --color-shadow: hsla(0, 0%, 13%, 0.2);
     --color-primary: hsl(347, 83%, 56%);
     --color-secondary: hsl(275, 100%, 25%);
@@ -197,6 +197,7 @@ h3 {
 p {
     margin-bottom: 1rem;
 }
+
 
 /* sidfot */
 footer {
