@@ -24,8 +24,6 @@ https://fonts.google.com/specimen/Poppins?category=Sans+Serif
 
 Mer kantiga
 
-
-
 ## Vecka 17
 
 Har ändrat bilder samt fixat med färger och adderat text samt massa andra saker.
