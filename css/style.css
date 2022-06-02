@@ -3,7 +3,6 @@
     --color-dark: hsl(0, 0%, 35%);
     --color-primary: hsl(347, 83%, 56%);
     --color-secondary: hsl(275, 100%, 25%);
-
     --font-sans: 'Poppins', sans-serif;
 }
 
@@ -24,10 +23,12 @@ a:hover {
 
     font-size: 1.333rem;
 }
+
 .navbar__collapse-show {
     display: block !important;
     width: 100%;
 }
+
 .navbar__toggle {
     border: none;
     background-color: transparent;
@@ -43,11 +44,13 @@ a:hover {
         display: none;
     }
 }
+
 @media (min-width: 768px) {
     .navbar__toggle {
         display: none;
     }
 }
+
 /* https://jensnti.github.io/wu-exempel/navigation/ */
 .nav {
     list-style: none;
@@ -55,18 +58,23 @@ a:hover {
     flex-direction: row;
     margin: 0;
 }
+
 .nav a {
     text-decoration: none;
 }
+
 .nav-item {
     padding-right: 1rem;
 }
+
 .nav-item:first-child {
     padding-left: 1rem;
 }
+
 .nav-link {
     color: var(--color-secondary);
 }
+
 .nav-link:hover {
     text-decoration: none;
     color: var(--color-dark);
@@ -97,6 +105,7 @@ body {
     font-size: 1rem;
     font-family: var(--font-sans);
 }
+
 .container {
     margin-left: auto;
     margin-right: auto;

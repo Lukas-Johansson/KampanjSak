@@ -2,6 +2,7 @@
     --color-light-transparent: hsla(0, 0%, 100%, 0.9);
     --color-primary: hsla(355, 77%, 22%);
     --color-secondary: hsl(344deg 45% 13%);
+    --color-white : white;
 
     --font-headline:'Poppins', sans-serif;
 }
@@ -47,8 +48,8 @@ h1, h2, h3 {
 }
 
 .btn:hover {
-    color: var(--color-primary);
-    background-color: var(--color-primary);
+    color: var(--color-white);
+    background-color: var(--color-secondary);
 }
 
 
@@ -59,11 +60,23 @@ h1, h2, h3 {
 }
 
 @media (max-width: 48rem) {
+
     .about {
         display: flex;
         flex-direction: column-reverse;
         row-gap: 1rem;
     }
+
+    h4 {
+      font-size: 28px !important;
+    }
+
+    .Bild1 {
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
 }
 
 .loga {
@@ -121,6 +134,8 @@ h1, h2, h3 {
       transform: translate(-2%, -2%);
     }
   }
+
+  
 
 
 
